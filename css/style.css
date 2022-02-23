@@ -1,0 +1,42 @@
+.blue {
+    color : #0065FC;
+}
+
+.light-blue {
+    color : #DEEBFF;
+}
+
+.grey {
+    background-color: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    font-family: Raleway, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+}
+
+
+li {
+    display: inline;
+    text-align: right;
+}
+
+li > a {
+    text-decoration: none;
+    padding: 0 25px 0 25px;
+}
