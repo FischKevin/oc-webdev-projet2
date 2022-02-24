@@ -11,11 +11,6 @@ html {
     --grey : #F2F2F2;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
 h1 {
     font-size: 32px;
 }
@@ -26,6 +21,13 @@ h2 {
 
 h3 {
     font-size: 24px;
+}
+
+/*** HEADER ***/
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -48,17 +50,13 @@ li > a {
     text-decoration: none;
     padding: 15px;
     color: inherit;
-    border-bottom: #0065FC;
-}
-
-li > a:focus {
-    color: var(--blue);
-    border-top: 1px solid var(--blue);
 }
 
 li > a:hover {
     color: var(--blue);
-    background-color: var(--grey);
+    border-top: 1px solid var(--blue);
 }
+
+
 
 
