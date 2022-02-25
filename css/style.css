@@ -12,15 +12,20 @@ html {
 }
 
 h1 {
-    font-size: 32px;
-}
-
-h2 {
     font-size: 28px;
 }
 
-h3 {
-    font-size: 24px;
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
 }
 
 /*** HEADER ***/
@@ -57,6 +62,52 @@ li > a:hover {
     border-top: 1px solid var(--blue);
 }
 
+/*** FILTERS ***/
 
+.filters {
+    display: flex;
+}
 
+.fa-map-marker-alt {
+    background-color: var(--grey);
+    border: 1px solid var(--grey);
+    border-radius: 10px 0 0 10px;
+    font-size: 12px;
+    width: 30px;
 
+    text-align: center;
+
+    padding-top: 1.5%;
+    
+}
+
+.search-button {
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    height: 32px;
+    padding: 0 5px;
+}
+
+.search-input {
+    border: 1px solid var(--grey);
+    height: 32px;
+    padding-left: 10px;
+}
+
+.fa-money-bill-wave,
+.fa-child,
+.fa-heart,
+.fa-dog {
+    background-color: var(--light-blue);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    font-size: 12px;
+
+display:flex;
+   align-items:center;
+   justify-content:space-around;
+
+}
