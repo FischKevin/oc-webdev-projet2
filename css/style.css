@@ -104,11 +104,31 @@ li > a:hover {
 #filters {
     display: flex;
     flex-wrap: wrap;
-    vertical-align: middle;
+    padding: 10px 0;
+    justify-content:flex-start
 }
 
-.filter-name {
-    padding-left: 50px;
+#filters > h2 {
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.filter-type {
+    border: 1px solid var(--light-blue);
+    border-radius: 20px;
+    display: flex;
+    height: 42px;
+    align-items: center;
+    padding-right: 12px;
+    margin-right:  20px;
+}
+
+.fa-stack {
+    margin-left: -8px;
+}
+
+.fa-stack > h3 {
+    padding-left: 55px;
 }
 
 .fa-money-bill-wave,
@@ -121,6 +141,8 @@ li > a:hover {
 .fa-circle {
     color: var(--light-blue);
 }
+
+
 
 /*** HEBERGEMENTS ***/
 
