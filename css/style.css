@@ -147,10 +147,10 @@ li > a:hover {
 }
 
 .i {
-   border: 1px solid black;
-   color: var(--blue);
-   border-radius: 50px;
-   width: 20px;
+    border: 1px solid black;
+    color: var(--blue);
+    border-radius: 50px;
+    width: 20px;
     display: flex;
     justify-content: center;
     font-family: 'Times New Roman';
@@ -159,20 +159,51 @@ li > a:hover {
 
 /*** HEBERGEMENTS ***/
 
+main {
+    display: flex;
+}
+
 #hebergements {
     padding: 10px 25px;
+    background-color: var(--grey);
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.hebergements-list {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.full {
+    color: var(--blue);
+}
+
+.empty {
+    color: var(--light-blue);
 }
 
 /*** LES PLUS POPULAIRES ***/
 
 #les-plus-populaires {
     padding: 10px 25px;
+    background-color: var(--grey);
+    border-radius: 20px;
+}
+
+.les-plus-populaires-list {
+    display: flex;
 }
 
 /*** ACTIVITES ***/
 
 #activites {
     padding: 10px 25px;
+}
+
+.activites-list {
+    display: flex;
 }
 
 /*** FOOTER ***/
